@@ -1,0 +1,16 @@
+{
+  "name": "robinhood-inscriptions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Inscribe text and images permanently on-chain on Robinhood Chain",
+  "scripts": {
+    "test": "forge test -vv",
+    "deploy": "node script/deploy.js",
+    "verify": "node script/verify_blockscout.js",
+    "inscribe": "node script/inscribe.js",
+    "handoff": "node script/handoff.js"
+  },
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}
